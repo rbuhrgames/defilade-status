@@ -1,0 +1,5 @@
+{
+  "_what": "A fixture, not the live list. It withdraws EVERY build ('*') and exists only so the kill switch can be tested end to end without touching revoked.json.",
+  "_use": "DEFILADE_REVOKE_URL=https://raw.githubusercontent.com/rbuhrgames/defilade-status/main/revoked-test.json godot --path . -- --lock --log",
+  "revoked": ["*"]
+}
