@@ -2,7 +2,5 @@
   "_what": "Defilade tester builds that have been withdrawn. Every sealed build reads this once, when its menu comes up, and shows 'This test build has been withdrawn.' if it matches. See Game._check_revoked.",
   "_entries": "A version tag ('0.1.26'), a batch ('netease', every build made for them), a tag with its batch ('0.1.26-netease'), or '*' for every build everywhere.",
   "_edit": "build-tools/publish.py revoke <entry>  /  unrevoke <entry>  /  revoked",
-  "revoked": [
-    "0.0.1"
-  ]
+  "revoked": []
 }
